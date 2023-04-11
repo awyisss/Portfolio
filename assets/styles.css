@@ -1,10 +1,12 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 body {
     background-color: #dcf7c1;
 }
+
+header {
+    padding: 40px;
+    text-align: center;
+    background: hsl(209, 53%, 16%);
+    color: #fff;
+  }
+  
 
