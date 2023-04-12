@@ -19,7 +19,22 @@ header {
     border-radius: 10;
     
 }
+
+.name {
+    /* direction: flex;
+    flex-direction: wrap; */
+    /* padding-left: 100px; */
+    padding: 20 20 20 20;
+    border: 3px solid darkslategray;
+    margin-left: 100;
+}
   
+.pic {
+    position: absolute;
+    width: 30;
+    height: 30;
+}
+
 .header nav {
     padding-top: 10px;
     margin-right: 20px;
@@ -35,6 +50,23 @@ header {
     display: inline-block;
     margin-right: 25px;
 }
+
+.header nav ul li a {
+    color: white;
+    font-weight: bolder;
+    border-bottom: 5px solid black;
+    padding-bottom: 5px
+
+}
+
+
+
+
+
+
+
+
+
  header h1 {
     font-weight: bold;
  }
