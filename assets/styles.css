@@ -1,7 +1,3 @@
-:root {
-    --black: #0c0c0c
-}
-
 * {
    
 }
@@ -39,10 +35,50 @@ header {
     display: inline-block;
     margin-right: 25px;
 }
+ header h1 {
+    font-weight: bold;
+ }
 
+ .portfolio1 {
+    position: relative;
+    flex: 1 0 100;
+    min-height: 200;
+    min-width: 200;
+    border: 3 solid darkblue;
+ }
 
+ .portfolio2 {
+    position: relative;
+    flex: 1 0 50;
+    min-height: 200;
+    min-width: 200;
+    border: 3 solid darkblue;
+ }
 
-.about {
+ .portfolio3 {
+    position: relative;
+    flex: 1 0 50;
+    min-height: 200;
+    min-width: 200;
+    border: 3 solid darkblue;
+ }
+
+ .portfolio4 {
+    position: relative;
+    flex: 1 0 50;
+    min-height: 200;
+    min-width: 200;
+    border: 3 solid darkblue;
+ }
+
+ .portfolio5 {
+    position: relative;
+    flex: 1 0 50;
+    min-height: 200;
+    min-width: 200;
+    border: 3 solid darkblue;
+ }
+/* .about {
     padding: 10px;
     text-align: left;
     background: hsl(208, 46%, 59%);
@@ -60,4 +96,4 @@ p {
 
 h2 {
     color: white;
-}
+} */
