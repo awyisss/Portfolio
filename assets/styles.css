@@ -1,28 +1,27 @@
 :root {
-color: var(#fff);
-background-color: var(#5b7046) ;
-background: var(hsl(208, 46%, 59%));
-font-family: var();
+    --black: #0c0c0c
 }
 
 * {
-    box-sizing: border-box;
-    padding: 5;
-    margin: 5;
+   
 }
 
 body {
-    background-color: #5b7046;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
-.header {
-    padding: 10px;
-    text-align: left;
-    background: hsl(208, 46%, 59%);
-    color: #fff;
+header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    padding: 10;
+    border-radius: 10;
+    
 }
   
 .header nav {
@@ -47,7 +46,7 @@ body {
     padding: 10px;
     text-align: left;
     background: hsl(208, 46%, 59%);
-    color: #fff;
+    color: #0c0c0c;
 }
 a {
     color: #ffffff;
