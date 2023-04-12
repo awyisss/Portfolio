@@ -1,10 +1,19 @@
 :root {
 color: var(#fff);
 background-color: var(#5b7046) ;
+background: var(hsl(208, 46%, 59%));
+font-family: var();
+}
+
+* {
+    box-sizing: border-box;
+    padding: 5;
+    margin: 5;
 }
 
 body {
     background-color: #5b7046;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -16,7 +25,13 @@ body {
     color: #fff;
 }
   
-
+.header nav {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 20px;
+}
 .header nav ul{
     list-style-type: none;
   }
