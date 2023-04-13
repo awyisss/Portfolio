@@ -4,9 +4,9 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(189, 204, 219);
+    width: fit-content;
 }
-
-
 
 header {
     position: relative;
@@ -14,28 +14,100 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: darkgray;
-    padding: 10;
-    border-radius: 10;
-    
+    background-color: rgb(231, 225, 225);
+    border: 3px solid rgb(134, 152, 169);
 }
-  
-.header nav {
+
+nav {
     padding-top: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
     float: right;
     font-family: Arial, Helvetica, sans-serif
-    font-size: 20px;
+    font-size: 15px;
 }
-.header nav ul{
+
+nav ul{
     list-style-type: none;
   }
 
-.header nav ul li {
+nav ul li {
     display: inline-block;
-    margin-right: 25px;
+    list-style: none;
+    margin-right: 10px;
 }
- header h1 {
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+ }
+
+ h1 {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+ }
+
+ /* .name {
+    margin-left: 70px;
+ } */
+
+header .pic {
+    position: absolute;
+    margin-left: 5px;
+}
+
+ .pic {
+    width: 50px;
+    height: 50px;
+ }
+
+ .hero {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(./images/02-hero-bg.jpg);
+    background-size: cover;
+ }
+
+ .info {
+    margin-right: 5px;
+    color: white;
+ }
+
+
+.section_body {
+   display: flex;
+   flex-direction: row;
+   height: 30vh;
+
+}
+
+ .about_me {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 3px dotted black;
+    
+ }
+ .about_body {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+    padding: 30px;
+
+ }
+
+
+
+
+
+
+
+
+ /* header h1 {
     font-weight: bold;
  }
 
@@ -77,23 +149,4 @@ header {
     min-height: 200;
     min-width: 200;
     border: 3 solid darkblue;
- }
-/* .about {
-    padding: 10px;
-    text-align: left;
-    background: hsl(208, 46%, 59%);
-    color: #0c0c0c;
-}
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-    color: #fff;
-}
-
-h2 {
-    color: white;
-} */
+ } */
