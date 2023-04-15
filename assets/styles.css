@@ -22,7 +22,7 @@ nav {
     padding-top: 10px;
     margin-right: 10px;
     float: right;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
@@ -88,12 +88,7 @@ section div {
 }
 
  .about_me {
-    display: flex;
-    flex: 1 0 40;
     width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-right: 3px dotted black;
     
  }
@@ -101,8 +96,8 @@ section div {
  .about_body {
     display: flex;
     justify-content: center;
-    flex: 2 0 60%;
-    padding: 30px;
+    width:60%;
+    border-left: 3 solid black;
 
  }
 
@@ -116,11 +111,8 @@ section div {
  }
 
 .work {
-    display: flex;
     width: 40%;
-    align-items: center;
-    justify-content: row;
-    
+    border-right: 3px dotted black;
  }
 
  .section_work {
@@ -128,7 +120,8 @@ section div {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-start;
-    border-left: 3px dotted black;
+    width:60%;
+    /* border-left: 3px dotted black; */
  }
 
 
@@ -253,3 +246,4 @@ section div {
     .pic {
       visibility: hidden;
     }
+}
